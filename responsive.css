@@ -1,0 +1,152 @@
+/* mobile scope */
+@media screen and (max-width:425px){
+    .dn-m{
+        display: none;
+    }
+    .db-m{
+        display: block;
+    }
+    #menu{
+        width: 100%;
+        height: 50px;
+        /*border: 1px solid red;*/
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu>h1{
+        font-size: 14px;
+        height: 20px;
+    }
+    #menu>div{
+        width: 15%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 260px;
+        height: auto;
+    }
+    #about{
+        padding: 50px 10px;
+    }
+    #about>p{
+        font-size: 1.1em;
+    }
+    #co{
+        padding-top: 30px;
+    }
+    .flower{
+        width: 100%;
+        height: 300px;
+        background-image: url("./img/flowersr_bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .opening-hours{
+        width: 100%;
+        padding: 110px 30px;
+    }
+
+}
+
+
+/* tablet scope */
+@media  screen and (min-width:426px) and (max-width: 768px){
+    .dn-t{
+        display: none;
+    }
+    .db-t{
+        display: block;
+    }
+    #pic{
+    }
+    #menu{
+        width: 100%;
+        height: 70px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu>div{
+        width: 7%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 330px;
+        height: auto;
+    }
+    .treatment{
+        width: 100%;
+        height: auto;
+    }
+    .treatment>h2 {
+        margin-top: 80px;
+    }
+    .flower{
+        width: 100%;
+        height: 300px;
+        background-image: url("./img/flowersr_bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+/* laptop scope */
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .dn-l{
+        display: none;
+    }
+    .db-l{
+        display: block;
+    }
+
+
+
+
+}
+
+
+/* desktop scope */
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+    .dn-d{
+        display: none;
+    }
+    .db-d{
+        display: block;
+    }
+
+
+
+}
+
+/* big scope */
+@media screen and (min-width: 1441px){
+    .dn-b{
+        display: none;
+    }
+    .db-b{
+        display: block;
+    }
+
+
+
+
+}
